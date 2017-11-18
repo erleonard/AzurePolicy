@@ -1,0 +1,9 @@
+{
+  "if": {
+    "not": {
+      "field": "tags",
+      "containsKey": "Department"
+    }
+  },
+  "then": {"effect": "deny"}
+}
